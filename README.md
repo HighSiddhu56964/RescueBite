@@ -134,8 +134,7 @@ A smart web application designed to assist users in snakebite situations using *
 ## ⚙️ Setup Instructions
 
 1. Clone the repository:
-bash
-git clone https://github.com/your-username/snake_sos.git
+
 
 Install dependencies:
 npm install
