@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --zg-bg: #F9F9F9;
+    --zg-card: #FFFFFF;
+    --zg-border: #E2E8F0;
+    --zg-text: #0F172A;
+    --zg-text-secondary: #475569;
+    --zg-text-muted: #94A3B8;
+  }
+
+  body {
+    background-color: theme('colors.warm-cream');
+    color: theme('colors.zg-text');
+    font-family: theme('fontFamily.sans');
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  /* Profile Background Texture (Stylized Snake Scale Organic Pattern, 1% opacity) */
+  .bg-organic-texture {
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2H22v2h20v2h-2v-2z' fill='%23000000' fill-opacity='0.01' fill-rule='evenodd'/%3E%3C/svg%3E");
+  }
+
+  /* Glassmorphism utilities */
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40;
+  }
+  
+  .glass-strong {
+    @apply bg-white/90 backdrop-blur-2xl border border-white/60 shadow-8dp;
+  }
+
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-xl border border-white/10;
+  }
+
+  /* Custom Red CTA Gradient */
+  .gradient-emergency {
+    background: linear-gradient(135deg, #D32F2F 0%, #E53935 100%);
+  }
+
+  /* Custom Green Brand Gradient */
+  .gradient-indigo { /* Renamed structurally, maps to Green */
+    background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%);
+  }
+
+  /* Custom Purple Pulse mapped for specific register button request */
+  .gradient-register-pulse {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  }
+}
+
+/* Hide scrollbar for a cleaner mobile app feel */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Base resets */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Leaflet Light Theme Overrides */
+.leaflet-container {
+  background: #F8FAFC !important;
+  font-family: 'Inter', system-ui, sans-serif !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: white;
+  color: #0F172A;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: 1px solid #E2E8F0;
+}
+
+.leaflet-popup-tip {
+  background: white;
+  border: 1px solid #E2E8F0;
+}
+
+.leaflet-control-zoom a {
+  background-color: white !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+}

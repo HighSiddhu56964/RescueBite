@@ -1,0 +1,119 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "close": "Close",
+    "logout": "Logout",
+    "back": "Back"
+  },
+  "nav": {
+    "home": "Home",
+    "detect": "Detect",
+    "symptoms": "Symptoms",
+    "map": "Map",
+    "sos": "SOS",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "home": {
+    "greeting": "Stay Safe",
+    "subtitle": "Emergency snakebite assistance",
+    "quickActions": "Quick Actions",
+    "detectSnake": "Detect Snake",
+    "checkSymptoms": "Check Symptoms",
+    "findHospital": "Find Hospital",
+    "sendSOS": "Send SOS"
+  },
+  "detect": {
+    "title": "Snakebite Detection",
+    "subtitle": "Analyze wound images using on-device AI",
+    "aiReady": "AI Ready",
+    "camera": "Camera",
+    "upload": "Upload",
+    "captureAnalyze": "Capture & Analyze",
+    "analyzing": "Analyzing image...",
+    "reportSaved": "Report saved successfully",
+    "reportFailed": "Failed to save report",
+    "snakebite": "Snakebite",
+    "venomous": "Venomous",
+    "riskLevel": "Risk Level",
+    "confidence": "Confidence",
+    "checkSymptoms": "Check Symptoms",
+    "sendSOS": "Send SOS",
+    "analyzeAnother": "Analyze Another Image",
+    "notSnakebite": "Not a Snakebite",
+    "venomousBite": "VENOMOUS BITE DETECTED",
+    "possibleVenomous": "POSSIBLE VENOMOUS BITE",
+    "nonVenomous": "Non-Venomous Bite"
+  },
+  "symptoms": {
+    "title": "Symptom Checker",
+    "placeholder": "Describe your symptoms...",
+    "send": "Send",
+    "greeting": "Hello! I am SnakeSafe AI. Please describe your symptoms.",
+    "saved": "Symptom log saved"
+  },
+  "sos": {
+    "title": "Emergency Mode",
+    "sendSOS": "SEND SOS",
+    "tapToSend": "Tap to send emergency alert",
+    "gpsLocked": "GPS Locked",
+    "gpsUnavailable": "GPS Unavailable",
+    "acquiringGPS": "Acquiring GPS...",
+    "confirmTitle": "SEND SOS?",
+    "confirmDesc": "An SMS with your GPS location will be sent immediately.",
+    "sending": "Sending...",
+    "sent": "SOS SENT SUCCESSFULLY",
+    "helpOnWay": "Help is on the way",
+    "offlineMode": "Offline mode: SMS sent only",
+    "noInternet": "No internet — SMS-only mode"
+  },
+  "map": {
+    "nearbyHospitals": "Nearby Hospitals",
+    "searching": "Searching nearby hospitals...",
+    "found": "{{count}} hospitals found",
+    "notFound": "No hospitals found nearby",
+    "heatmap": "Heatmap",
+    "showHeatmap": "Show Heatmap",
+    "hideHeatmap": "Hide Heatmap",
+    "myReports": "My Reports",
+    "allReports": "All Reports",
+    "activeSOS": "{{count}} Active SOS",
+    "nearestHospital": "Nearest Hospital",
+    "navigate": "Navigate to {{name}}"
+  },
+  "profile": {
+    "title": "Profile",
+    "role": "Role",
+    "memberSince": "Member since",
+    "stats": "Statistics",
+    "totalDetections": "Detections",
+    "totalSOS": "SOS Alerts",
+    "totalSymptoms": "Symptom Checks",
+    "history": "History",
+    "detectionHistory": "Detection History",
+    "sosHistory": "SOS History",
+    "symptomHistory": "Symptom History",
+    "noData": "No data yet",
+    "language": "Language",
+    "detected": "Detected",
+    "notDetected": "Not Detected"
+  },
+  "entry": {
+    "title": "SnakeSafe",
+    "subtitle": "Emergency snakebite assistance",
+    "userLogin": "User Login",
+    "authorityLogin": "Authority Login"
+  },
+  "toast": {
+    "reportSaved": "✅ Report saved successfully",
+    "reportFailed": "❌ Failed to save report",
+    "sosSent": "✅ SOS alert sent",
+    "symptomSaved": "✅ Symptom log saved",
+    "logoutSuccess": "Logged out successfully"
+  }
+}

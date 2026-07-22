@@ -1,0 +1,119 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "कुछ गलत हो गया",
+    "retry": "पुनः प्रयास करें",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "save": "सहेजें",
+    "close": "बंद करें",
+    "logout": "लॉगआउट",
+    "back": "वापस"
+  },
+  "nav": {
+    "home": "होम",
+    "detect": "पहचान",
+    "symptoms": "लक्षण",
+    "map": "नक्शा",
+    "sos": "SOS",
+    "profile": "प्रोफ़ाइल",
+    "logout": "लॉगआउट"
+  },
+  "home": {
+    "greeting": "सुरक्षित रहें",
+    "subtitle": "सर्पदंश आपातकालीन सहायता",
+    "quickActions": "त्वरित कार्य",
+    "detectSnake": "साँप पहचानें",
+    "checkSymptoms": "लक्षण जाँचें",
+    "findHospital": "अस्पताल खोजें",
+    "sendSOS": "SOS भेजें"
+  },
+  "detect": {
+    "title": "सर्पदंश पहचान",
+    "subtitle": "डिवाइस AI से घाव की छवि का विश्लेषण करें",
+    "aiReady": "AI तैयार",
+    "camera": "कैमरा",
+    "upload": "अपलोड",
+    "captureAnalyze": "कैप्चर और विश्लेषण",
+    "analyzing": "छवि का विश्लेषण हो रहा है...",
+    "reportSaved": "रिपोर्ट सफलतापूर्वक सहेजी गई",
+    "reportFailed": "रिपोर्ट सहेजने में विफल",
+    "snakebite": "सर्पदंश",
+    "venomous": "विषैला",
+    "riskLevel": "जोखिम स्तर",
+    "confidence": "सटीकता",
+    "checkSymptoms": "लक्षण जाँचें",
+    "sendSOS": "SOS भेजें",
+    "analyzeAnother": "अन्य छवि का विश्लेषण करें",
+    "notSnakebite": "सर्पदंश नहीं है",
+    "venomousBite": "विषैला दंश पाया गया",
+    "possibleVenomous": "संभावित विषैला दंश",
+    "nonVenomous": "गैर-विषैला दंश"
+  },
+  "symptoms": {
+    "title": "लक्षण जाँच",
+    "placeholder": "अपने लक्षण बताएं...",
+    "send": "भेजें",
+    "greeting": "नमस्ते! मैं SnakeSafe AI हूँ। कृपया अपने लक्षण बताएं।",
+    "saved": "लक्षण लॉग सहेजा गया"
+  },
+  "sos": {
+    "title": "आपातकालीन मोड",
+    "sendSOS": "SOS भेजें",
+    "tapToSend": "आपातकालीन अलर्ट भेजने के लिए टैप करें",
+    "gpsLocked": "GPS लॉक",
+    "gpsUnavailable": "GPS उपलब्ध नहीं",
+    "acquiringGPS": "GPS प्राप्त हो रहा है...",
+    "confirmTitle": "SOS भेजें?",
+    "confirmDesc": "आपके GPS स्थान के साथ एक SMS तुरंत भेजा जाएगा।",
+    "sending": "भेज रहे हैं...",
+    "sent": "SOS सफलतापूर्वक भेजा गया",
+    "helpOnWay": "मदद आ रही है",
+    "offlineMode": "ऑफ़लाइन: केवल SMS भेजा गया",
+    "noInternet": "इंटरनेट नहीं — केवल SMS मोड"
+  },
+  "map": {
+    "nearbyHospitals": "आसपास के अस्पताल",
+    "searching": "अस्पताल खोज रहे हैं...",
+    "found": "{{count}} अस्पताल मिले",
+    "notFound": "आसपास कोई अस्पताल नहीं मिला",
+    "heatmap": "हीटमैप",
+    "showHeatmap": "हीटमैप दिखाएं",
+    "hideHeatmap": "हीटमैप छुपाएं",
+    "myReports": "मेरी रिपोर्ट",
+    "allReports": "सभी रिपोर्ट",
+    "activeSOS": "{{count}} सक्रिय SOS",
+    "nearestHospital": "निकटतम अस्पताल",
+    "navigate": "{{name}} तक नेविगेट करें"
+  },
+  "profile": {
+    "title": "प्रोफ़ाइल",
+    "role": "भूमिका",
+    "memberSince": "सदस्य बने",
+    "stats": "आँकड़े",
+    "totalDetections": "पहचान",
+    "totalSOS": "SOS अलर्ट",
+    "totalSymptoms": "लक्षण जाँच",
+    "history": "इतिहास",
+    "detectionHistory": "पहचान इतिहास",
+    "sosHistory": "SOS इतिहास",
+    "symptomHistory": "लक्षण इतिहास",
+    "noData": "अभी कोई डेटा नहीं",
+    "language": "भाषा",
+    "detected": "पाया गया",
+    "notDetected": "नहीं पाया गया"
+  },
+  "entry": {
+    "title": "SnakeSafe",
+    "subtitle": "सर्पदंश आपातकालीन सहायता",
+    "userLogin": "उपयोगकर्ता लॉगिन",
+    "authorityLogin": "अधिकारी लॉगिन"
+  },
+  "toast": {
+    "reportSaved": "✅ रिपोर्ट सफलतापूर्वक सहेजी गई",
+    "reportFailed": "❌ रिपोर्ट सहेजने में विफल",
+    "sosSent": "✅ SOS अलर्ट भेजा गया",
+    "symptomSaved": "✅ लक्षण लॉग सहेजा गया",
+    "logoutSuccess": "सफलतापूर्वक लॉगआउट किया गया"
+  }
+}

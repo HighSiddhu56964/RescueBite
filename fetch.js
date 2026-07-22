@@ -1,0 +1,1 @@
+fetch('https://ibb.co/QFQ1LDSq').then(r=>r.text()).then(t=>{ const m = t.match(/og:image[^\"']*content=[\"']([^\"']+)[\"']/i); if(m){ const fs = require('fs'); const file = fs.createWriteStream('public/symptom-bg.png'); require('https').get(m[1], res => res.pipe(file)); console.log('Success:', m[1]); } else console.log('Failed'); })
